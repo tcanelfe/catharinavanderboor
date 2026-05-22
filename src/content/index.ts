@@ -253,7 +253,7 @@ const en: SiteContent = {
     intro:
       "For consultancy, research collaboration, supervision, or media enquiries, please use the form below or write directly. A short note describing the work, timelines, and host organisation is most useful.",
     emailLabel: "Direct email",
-    emailValue: "[LSHTM email to confirm]",
+    emailValue: "Catharina.van-der-boor@lshtm.ac.uk",
     formTitle: "Send a message",
     fields: {
       name: "Your name",
@@ -426,7 +426,7 @@ const es: SiteContent = {
     intro:
       "Para consultoría, colaboración de investigación, supervisión o consultas de medios, le ruego que utilice el formulario o escriba directamente. Una nota breve describiendo el trabajo, los plazos y la organización solicitante resulta de gran ayuda.",
     emailLabel: "Correo directo",
-    emailValue: "[Correo de LSHTM por confirmar]",
+    emailValue: "Catharina.van-der-boor@lshtm.ac.uk",
     formTitle: "Enviar un mensaje",
     fields: {
       name: "Su nombre",

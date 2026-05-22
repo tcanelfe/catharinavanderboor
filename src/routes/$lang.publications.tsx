@@ -117,8 +117,8 @@ export const Route = createFileRoute("/$lang/publications")({
         : "Publications — Catharina van der Boor";
     const description =
       lang === "es"
-        ? "19 publicaciones revisadas por pares en salud mental global, desplazamiento forzado y SMAPS. Lista completa en ORCID."
-        : "19 peer-reviewed publications in global mental health, forced displacement, and MHPSS. Full list on ORCID.";
+        ? "Publicaciones revisadas por pares en salud mental global, desplazamiento forzado y SMAPS. Lista completa en ORCID."
+        : "Peer-reviewed publications in global mental health, forced displacement, and MHPSS. Full list on ORCID.";
     return {
       meta: [
         { title },

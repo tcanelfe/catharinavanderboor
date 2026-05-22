@@ -91,13 +91,26 @@ function ContactPage() {
       <h1 className="mb-8">{t("contact.title", { lng: lang })}</h1>
       <p className="text-foreground/90 text-[17px]">{t("contact.intro", { lng: lang })}</p>
 
-      <section className="mt-10 border border-border rounded-[4px] p-6 bg-card">
-        <p className="text-sm uppercase tracking-[0.15em] text-muted-foreground mb-2">
-          {t("contact.emailLabel", { lng: lang })}
-        </p>
-        <a href={`mailto:${EMAIL}`} className="font-serif text-[1.1rem] text-foreground hover:text-primary">
-          {EMAIL}
-        </a>
+      <section className="mt-10 border border-border rounded-[4px] p-6 bg-card space-y-4">
+        <div>
+          <p className="text-sm uppercase tracking-[0.15em] text-muted-foreground mb-2">
+            {t("contact.emailLabel", { lng: lang })}
+          </p>
+          <a href={`mailto:${EMAIL}`} className="font-serif text-[1.1rem] text-foreground hover:text-primary">
+            {EMAIL}
+          </a>
+        </div>
+        <div>
+          <p className="text-sm uppercase tracking-[0.15em] text-muted-foreground mb-2">LinkedIn</p>
+          <a
+            href="https://www.linkedin.com/in/vanderboor"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-serif text-[1.1rem] text-foreground hover:text-primary"
+          >
+            linkedin.com/in/vanderboor
+          </a>
+        </div>
       </section>
 
       <section className="mt-12">

@@ -5,7 +5,7 @@
     "ctaPrimary": "Get in touch",
     "ctaSecondary": "Read research",
     "anchors": [
-      "19 peer-reviewed publications",
+      "Associate Editor, Conflict and Health (2025–present)",
       "Fieldwork in Uganda, Ukraine, Colombia, Sweden",
       "Consultant to WHO, UNICEF (via IMC), Mid Sweden University"
     ],
@@ -32,7 +32,7 @@
     "headshotPending": "Headshot pending",
     "bio": [
       "Catharina van der Boor is Senior Lecturer in Global Mental Health and Co-Director of the Centre for Health in Humanitarian Crises at the London School of Hygiene & Tropical Medicine. Her work sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science.",
-      "Her research focuses on the development and evaluation of culturally adapted diagnostic instruments and of scalable psychological interventions for displaced and underserved populations. She has authored 19 peer-reviewed publications and has secured competitive research funding for work spanning Europe, Africa, Latin America, and South Asia.",
+      "Her research focuses on the development and evaluation of culturally adapted diagnostic instruments and of scalable psychological interventions for displaced and underserved populations. She has authored peer-reviewed publications in leading journals and has secured competitive research funding for work spanning Europe, Africa, Latin America, and South Asia.",
       "Alongside her academic appointment, she advises UN agencies, ministries of health, and international NGOs on programme design, evaluation, and capacity-building, with a methodological emphasis on mixed methods, psychometric validation, and implementation science."
     ],
     "timelineTitle": "Academic and professional timeline",
@@ -71,6 +71,14 @@
       "Dutch — native / bilingual",
       "Portuguese — limited professional",
       "Catalan — A2"
+    ],
+    "leadershipTitle": "Leadership and professional activity",
+    "leadership": [
+      "Associate Editor of Conflict and Health (2025–present); expert reviewer for The Lancet Psychiatry, Global Mental Health, Trials, and Social Psychiatry and Psychiatric Epidemiology.",
+      "Co-founder and board member of the Mental Health and Psychosocial Research Network; mentor to seven junior MHPSS professionals working in conflict-affected settings.",
+      "Member of the Examinations Board (LSHTM); external PhD examiner at King's College London, University of York, and Trinity College Dublin (2024–2026).",
+      "Faculty representative on the Gender Equity and Diversity Committee (LSHTM); technical advisor to the Government of Andorra (2023–2025).",
+      "Organiser of high-impact international seminars, including the webinar on public health institutions in Gaza (580 attendees; 78,900 views)."
     ],
     "skillsTitle": "Technical skills",
     "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
@@ -132,7 +140,7 @@
   },
   "publications": {
     "title": "Publications",
-    "lead": "19 peer-reviewed publications across Trials, Transcultural Psychiatry, Conflict and Health, Global Mental Health, BMC Public Health, and others, plus a technical review for Cambridge University Press.",
+    "lead": "Peer-reviewed publications across Trials, Transcultural Psychiatry, Conflict and Health, Global Mental Health, BMC Public Health, and others, plus a technical review for Cambridge University Press.",
     "orcidButton": "View full list on ORCID",
     "selectedTitle": "Selected publications"
   },
