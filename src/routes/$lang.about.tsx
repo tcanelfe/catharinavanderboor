@@ -59,7 +59,7 @@ export const Route = createFileRoute("/$lang/about")({
               url: "https://www.lshtm.ac.uk",
             },
             url: ORCID_URL,
-            sameAs: [ORCID_URL],
+            sameAs: [ORCID_URL, "https://www.linkedin.com/in/vanderboor"],
             identifier: ORCID_URL,
           }),
         },
