@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import "@/i18n";
 import { isLang, type Lang, getContent } from "@/content";
+import headshot from "@/assets/headshot.jpg";
 
 const ORCID_URL = "https://orcid.org/0000-0003-2710-7601";
 
