@@ -1,0 +1,29 @@
+{
+  "home": {
+    "name": "Catharina van der Boor",
+    "lede": "Profesora Titular de Salud Mental Global en la LSHTM y Codirectora del Centre for Health in Humanitarian Crises. Diseño y evalúo intervenciones de salud mental para poblaciones afectadas por el conflicto y el desplazamiento.",
+    "ctaPrimary": "Ponerse en contacto",
+    "ctaSecondary": "Ver la investigación",
+    "anchors": [
+      "19 publicaciones revisadas por pares",
+      "Trabajo de campo en Uganda, Ucrania, Colombia y Suecia",
+      "Consultora para la OMS, UNICEF (a través de IMC) y Mid Sweden University"
+    ],
+    "workTitle": "Trabajo actual destacado",
+    "work": [
+      {
+        "title": "Ensayo MHPSS — Uganda y Ucrania",
+        "body": "Ensayo multipaís de una intervención de salud mental y apoyo psicosocial dirigida a poblaciones afectadas por el conflicto y el desplazamiento, llevado a cabo en sedes de Uganda y Ucrania."
+      },
+      {
+        "title": "Escala de Bienestar Kankuamo — Colombia",
+        "body": "Adaptación cultural y validación psicométrica de la Escala de Bienestar Kankuamo, desarrollada con la comunidad indígena Kankuamo en Colombia."
+      },
+      {
+        "title": "Evaluación de necesidades MHPSS — UNICEF Ucrania",
+        "body": "Evaluación de necesidades de salud mental y apoyo psicosocial para UNICEF en Ucrania, orientada a informar el diseño de programas en un contexto afectado por el conflicto."
+      }
+    ],
+    "closing": "Disponible para consultorías en diseño de programas MHPSS, adaptación cultural de instrumentos y evaluación de la implementación."
+  }
+}
