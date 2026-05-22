@@ -22,6 +22,10 @@ export const Route = createFileRoute("/$lang/")({
         { property: "og:locale", content: c.ogLocale },
         { property: "og:site_name", content: c.siteName },
         { property: "og:type", content: "website" },
+        { property: "og:image", content: "/og-image.jpg" },
+        { property: "og:image:width", content: "1216" },
+        { property: "og:image:height", content: "640" },
+        { name: "twitter:image", content: "/og-image.jpg" },
       ],
       links: [
         { rel: "canonical", href: `/${lang}` },
@@ -30,6 +34,7 @@ export const Route = createFileRoute("/$lang/")({
         { rel: "alternate", hrefLang: "x-default", href: "/en" },
       ],
     };
+
   },
   component: HomePage,
 });
