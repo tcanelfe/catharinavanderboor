@@ -86,6 +86,7 @@ function AboutPage() {
   const education = t("about.education", { lng: lang, returnObjects: true }) as EducationEntry[];
   const languages = t("about.languages", { lng: lang, returnObjects: true }) as string[];
   const skills = t("about.skills", { lng: lang, returnObjects: true }) as string[];
+  const leadership = t("about.leadership", { lng: lang, returnObjects: true }) as string[];
 
   return (
     <article className="mx-auto max-w-[1100px] px-6 py-16">
