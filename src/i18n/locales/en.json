@@ -25,5 +25,54 @@
       }
     ],
     "closing": "Available for consultancy on MHPSS programme design, cultural adaptation of instruments, and implementation evaluation."
+  },
+  "about": {
+    "title": "About",
+    "headshotAlt": "Headshot of Catharina van der Boor",
+    "headshotPending": "Headshot pending",
+    "bio": [
+      "Catharina van der Boor is Senior Lecturer in Global Mental Health and Co-Director of the Centre for Health in Humanitarian Crises at the London School of Hygiene & Tropical Medicine. Her work sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science.",
+      "Her research focuses on the development and evaluation of culturally adapted diagnostic instruments and of scalable psychological interventions for displaced and underserved populations. She has authored 19 peer-reviewed publications and has secured competitive research funding for work spanning Europe, Africa, Latin America, and South Asia.",
+      "Alongside her academic appointment, she advises UN agencies, ministries of health, and international NGOs on programme design, evaluation, and capacity-building, with a methodological emphasis on mixed methods, psychometric validation, and implementation science."
+    ],
+    "timelineTitle": "Academic and professional timeline",
+    "timeline": [
+      { "period": "2025 – present", "role": "Director of the Psychology Programme, Universitat Carlemany" },
+      { "period": "2024 – present", "role": "Co-Director, Centre for Health in Humanitarian Crises, LSHTM" },
+      { "period": "2024 – present", "role": "Senior Lecturer in Global Mental Health, LSHTM" },
+      { "period": "2022 – 2024", "role": "Research Fellow in Global Mental Health, LSHTM" },
+      { "period": "2021 – 2022", "role": "Postdoctoral Researcher in Global Mental Health, University of Liverpool" },
+      { "period": "2021 – 2023", "role": "Research Consultant, Insecurity Insights (Switzerland)" },
+      { "period": "2020 – 2021", "role": "Research Data Coordinator, Médecins du Monde (United Kingdom)" },
+      { "period": "2015 – 2016", "role": "MHPSS Programme Developer, Fundación Vicente Ferrer (India)" }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "period": "2022",
+        "degree": "PhD in Global Mental Health, University of Liverpool",
+        "detail": "Thesis: \"The Mental Health and Wellbeing of Asylum Seeking and Refugee Populations in High-Income Countries: A Capabilities Approach.\""
+      },
+      {
+        "period": "2017",
+        "degree": "MSc in Global Mental Health, University of Glasgow",
+        "detail": ""
+      },
+      {
+        "period": "2015",
+        "degree": "BSc in Psychology and Neuroscience, Utrecht University",
+        "detail": ""
+      }
+    ],
+    "languagesTitle": "Languages",
+    "languages": [
+      "Spanish — native",
+      "English — native / bilingual",
+      "Dutch — native / bilingual",
+      "Portuguese — limited professional",
+      "Catalan — A2"
+    ],
+    "skillsTitle": "Technical skills",
+    "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
   }
 }
