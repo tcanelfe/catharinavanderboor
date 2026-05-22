@@ -74,5 +74,60 @@
     ],
     "skillsTitle": "Technical skills",
     "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
+  },
+  "research": {
+    "title": "Research",
+    "metaTitle": "Research — Catharina van der Boor",
+    "metaDescription": "Research on forced displacement, MHPSS, and implementation science. Current projects in Uganda, Ukraine, and Colombia.",
+    "intro": "Catharina's research sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science. She develops and evaluates culturally adapted diagnostic instruments and scalable psychological interventions for populations affected by conflict, displacement, and structural adversity, with a particular interest in how interventions perform when delivered at scale in low-resource and humanitarian settings.",
+    "projectsTitle": "Current projects",
+    "projects": [
+      {
+        "title": "MHPSS trial — Uganda and Ukraine",
+        "body": "A multi-country trial evaluating a mental health and psychosocial support intervention for populations affected by conflict and displacement, with sites in Uganda and Ukraine."
+      },
+      {
+        "title": "Kankuamo Wellbeing Scale — Colombia (£300k, UKRI / Minciencias)",
+        "body": "Cultural adaptation and psychometric validation of a wellbeing instrument co-developed with the Kankuamo Indigenous community, funded by UKRI in partnership with Minciencias."
+      },
+      {
+        "title": "SPIDR consortium — Horizon Europe (under evaluation)",
+        "body": "Multi-partner European research consortium on mental health and psychosocial support for displaced populations. Proposal currently under evaluation by Horizon Europe."
+      }
+    ],
+    "methodsTitle": "Methods",
+    "methodsBody": "Her work combines mixed methods, psychometric validation, systematic reviews, participatory action research, multivariable regression, and exploratory and principal component analysis (EFA / PCA).",
+    "themesTitle": "Themes",
+    "themes": ["Forced displacement", "MHPSS", "Implementation science", "Cultural adaptation"]
+  },
+  "consultancy": {
+    "title": "Consultancy",
+    "metaTitle": "Consultancy — Catharina van der Boor",
+    "metaDescription": "Consultancy on MHPSS programme design, evaluation, cultural adaptation of instruments, and capacity building for UN agencies, INGOs, and ministries of health.",
+    "intro": "Catharina advises UN agencies, international NGOs, ministries of health, and academic partners on the design and evaluation of mental health and psychosocial support programmes. She supports the cultural adaptation and psychometric validation of measurement instruments, conducts needs assessments and implementation evaluations in conflict- and displacement-affected settings, and delivers training and capacity-building for research and programme teams. Engagements draw on the same methodological standards as her academic work — mixed methods, psychometric rigour, and an implementation science lens.",
+    "clientsTitle": "Past and current clients",
+    "clients": [
+      { "period": "2026 – present", "name": "International Medical Corps / UNICEF Ukraine" },
+      { "period": "2025", "name": "World Health Organization (WHO) Ukraine" },
+      { "period": "2023 – present", "name": "Mid Sweden University" },
+      { "period": "2021 – 2023", "name": "Insecurity Insights (Switzerland)" },
+      { "period": "2020 – 2021", "name": "Médecins du Monde UK" }
+    ],
+    "engagementsTitle": "Engagement models",
+    "engagements": [
+      {
+        "title": "Short-term advisory",
+        "body": "Targeted technical input on MHPSS programme design, study design, and methodological choices for time-bounded questions."
+      },
+      {
+        "title": "Evaluation and needs assessment",
+        "body": "Mixed-methods evaluations and needs assessments in humanitarian and displacement-affected settings, from protocol to final report."
+      },
+      {
+        "title": "Training and capacity building",
+        "body": "Training of research and programme teams in psychometric validation, qualitative methods, and implementation evaluation."
+      }
+    ],
+    "cta": "Discuss a project"
   }
 }
