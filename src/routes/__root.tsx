@@ -72,7 +72,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Catharina van der Boor" },
+      { title: "Catharina van der Boor — Global Mental Health" },
       {
         name: "description",
         content:
@@ -81,6 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Catharina van der Boor" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Catharina van der Boor — Global Mental Health" },
+      { name: "twitter:title", content: "Catharina van der Boor — Global Mental Health" },
+      { name: "description", content: "Senior Lecturer in Global Mental Health. Designing mental health interventions for populations affected by conflict and displacement. Available for consultancy." },
+      { property: "og:description", content: "Senior Lecturer in Global Mental Health. Designing mental health interventions for populations affected by conflict and displacement. Available for consultancy." },
+      { name: "twitter:description", content: "Senior Lecturer in Global Mental Health. Designing mental health interventions for populations affected by conflict and displacement. Available for consultancy." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/nDUc7Lfc9XhJ38yaYzwgSpuS2YU2/social-images/social-1779483389936-og-image.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/nDUc7Lfc9XhJ38yaYzwgSpuS2YU2/social-images/social-1779483389936-og-image.webp" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
