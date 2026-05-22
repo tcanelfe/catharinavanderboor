@@ -129,5 +129,36 @@
       }
     ],
     "cta": "Hablar de un proyecto"
+  },
+  "publications": {
+    "title": "Publicaciones",
+    "lead": "19 publicaciones revisadas por pares en revistas como Trials, Transcultural Psychiatry, Conflict and Health, Global Mental Health, BMC Public Health, entre otras, además de una revisión técnica para Cambridge University Press.",
+    "orcidButton": "Ver la lista completa en ORCID",
+    "selectedTitle": "Publicaciones seleccionadas",
+    "selectedNote": "TODO: populate from ORCID — five most-cited, with DOI links."
+  },
+  "contact": {
+    "title": "Contacto",
+    "intro": "Para consultas de consultoría, colaboración en investigación o solicitudes de medios, le invitamos a utilizar el formulario o escribir directamente por correo electrónico.",
+    "emailLabel": "Correo electrónico",
+    "formTitle": "Enviar un mensaje",
+    "notConfigured": "El formulario de contacto aún no está configurado. Por favor, escriba directamente a la dirección de correo indicada.",
+    "fields": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "organisation": "Organización",
+      "purpose": "Tipo de consulta",
+      "message": "Mensaje",
+      "purposeOptions": [
+        { "value": "consultancy", "label": "Consultoría" },
+        { "value": "research", "label": "Colaboración en investigación" },
+        { "value": "media", "label": "Medios" },
+        { "value": "other", "label": "Otro" }
+      ]
+    },
+    "submit": "Enviar mensaje",
+    "submitting": "Enviando…",
+    "success": "Gracias. Su mensaje ha sido enviado.",
+    "error": "Ha ocurrido un error. Por favor, escriba directamente por correo."
   }
 }
