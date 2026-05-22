@@ -129,5 +129,36 @@
       }
     ],
     "cta": "Discuss a project"
+  },
+  "publications": {
+    "title": "Publications",
+    "lead": "19 peer-reviewed publications across Trials, Transcultural Psychiatry, Conflict and Health, Global Mental Health, BMC Public Health, and others, plus a technical review for Cambridge University Press.",
+    "orcidButton": "View full list on ORCID",
+    "selectedTitle": "Selected publications",
+    "selectedNote": "TODO: populate from ORCID — five most-cited, with DOI links."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "For consultancy enquiries, research collaboration, or media requests, please use the form below or email directly.",
+    "emailLabel": "Email",
+    "formTitle": "Send a message",
+    "notConfigured": "The contact form is not yet configured. Please email directly using the address above.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "organisation": "Organisation",
+      "purpose": "Type of enquiry",
+      "message": "Message",
+      "purposeOptions": [
+        { "value": "consultancy", "label": "Consultancy" },
+        { "value": "research", "label": "Research collaboration" },
+        { "value": "media", "label": "Media" },
+        { "value": "other", "label": "Other" }
+      ]
+    },
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "success": "Thank you. Your message has been sent.",
+    "error": "Something went wrong. Please email directly."
   }
 }
