@@ -1,5 +1,8 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { getContent, isLang, type Lang } from "@/content";
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
+import "@/i18n";
+import { isLang, type Lang, getContent } from "@/content";
 
 export const Route = createFileRoute("/$lang/consultancy")({
   beforeLoad: ({ params }) => {
@@ -9,12 +12,20 @@ export const Route = createFileRoute("/$lang/consultancy")({
     const lang = (isLang(params.lang) ? params.lang : "en") as Lang;
     const c = getContent(lang);
     const otherLang = lang === "en" ? "es" : "en";
+    const title =
+      lang === "es"
+        ? "Consultoría — Catharina van der Boor"
+        : "Consultancy — Catharina van der Boor";
+    const description =
+      lang === "es"
+        ? "Consultoría en diseño y evaluación de programas SMAPS, adaptación cultural de instrumentos y formación de capacidades para agencias de la ONU, ONG internacionales y ministerios de salud."
+        : "Consultancy on MHPSS programme design, evaluation, cultural adaptation of instruments, and capacity building for UN agencies, INGOs, and ministries of health.";
     return {
       meta: [
-        { title: c.consultancy.metaTitle },
-        { name: "description", content: c.consultancy.metaDescription },
-        { property: "og:title", content: c.consultancy.metaTitle },
-        { property: "og:description", content: c.consultancy.metaDescription },
+        { title },
+        { name: "description", content: description },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description },
         { property: "og:url", content: `/${lang}/consultancy` },
         { property: "og:locale", content: c.ogLocale },
       ],
@@ -30,30 +41,47 @@ export const Route = createFileRoute("/$lang/consultancy")({
 
 function ConsultancyPage() {
   const { lang } = Route.useParams() as { lang: Lang };
-  const c = getContent(lang);
-  const x = c.consultancy;
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    if (i18n.language !== lang) i18n.changeLanguage(lang);
+  }, [lang, i18n]);
+
+  const clients = t("consultancy.clients", { lng: lang, returnObjects: true }) as Array<{
+    period: string;
+    name: string;
+  }>;
+  const engagements = t("consultancy.engagements", {
+    lng: lang,
+    returnObjects: true,
+  }) as Array<{ title: string; body: string }>;
 
   return (
     <article className="mx-auto max-w-[720px] px-6 py-16">
-      <h1 className="mb-8">{x.title}</h1>
-      <p className="text-foreground/90 text-[17px]">{x.intro}</p>
+      <h1 className="mb-8">{t("consultancy.title", { lng: lang })}</h1>
+      <p className="text-foreground/90 text-[17px]">{t("consultancy.intro", { lng: lang })}</p>
 
       <section className="mt-14">
-        <h2 className="mb-6 text-[1.25rem]">{x.servicesTitle}</h2>
-        <div className="space-y-5">
-          {x.services.map((s) => (
-            <div key={s.title} className="border-l-2 border-primary pl-5 py-1">
-              <h3 className="text-[1.05rem] mb-2">{s.title}</h3>
-              <p className="text-[15.5px] text-foreground/85">{s.body}</p>
-            </div>
+        <h2 className="mb-6 text-[1.25rem]">{t("consultancy.clientsTitle", { lng: lang })}</h2>
+        <ul className="divide-y divide-border border-y border-border">
+          {clients.map((c) => (
+            <li
+              key={c.name}
+              className="grid grid-cols-[10rem_1fr] gap-4 py-3 text-[15.5px]"
+            >
+              <span className="text-foreground/65 tabular-nums">{c.period}</span>
+              <span className="text-foreground/90">{c.name}</span>
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
 
       <section className="mt-14">
-        <h2 className="mb-6 text-[1.25rem]">{x.engagementsTitle}</h2>
-        <div className="grid gap-5 sm:grid-cols-2">
-          {x.engagements.map((e) => (
+        <h2 className="mb-6 text-[1.25rem]">
+          {t("consultancy.engagementsTitle", { lng: lang })}
+        </h2>
+        <div className="grid gap-5 sm:grid-cols-3">
+          {engagements.map((e) => (
             <div key={e.title} className="border border-border p-5 rounded-[4px] bg-card">
               <h3 className="text-[1rem] mb-2">{e.title}</h3>
               <p className="text-[15px] text-foreground/85">{e.body}</p>
@@ -62,18 +90,13 @@ function ConsultancyPage() {
         </div>
       </section>
 
-      <section className="mt-14">
-        <h2 className="mb-5 text-[1.25rem]">{x.clientsTitle}</h2>
-        <p className="text-foreground/85 italic">{x.clientsNote}</p>
-      </section>
-
       <div className="mt-14 border-t border-border pt-10">
         <Link
           to="/$lang/contact"
           params={{ lang }}
           className="inline-block bg-primary text-primary-foreground px-6 py-3 text-[15px] no-underline hover:no-underline hover:bg-primary/90 rounded-[4px]"
         >
-          {x.cta} →
+          {t("consultancy.cta", { lng: lang })} →
         </Link>
       </div>
     </article>

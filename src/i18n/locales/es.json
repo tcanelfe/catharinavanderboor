@@ -74,5 +74,60 @@
     ],
     "skillsTitle": "Competencias técnicas",
     "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
+  },
+  "research": {
+    "title": "Investigación",
+    "metaTitle": "Investigación — Catharina van der Boor",
+    "metaDescription": "Investigación sobre desplazamiento forzado, SMAPS y ciencia de la implementación. Proyectos en curso en Uganda, Ucrania y Colombia.",
+    "intro": "La investigación de Catharina se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación. Desarrolla y evalúa instrumentos diagnósticos culturalmente adaptados e intervenciones psicológicas escalables para poblaciones afectadas por el conflicto, el desplazamiento y la adversidad estructural, con particular interés en cómo se comportan las intervenciones cuando se implementan a escala en entornos de bajos recursos y humanitarios.",
+    "projectsTitle": "Proyectos actuales",
+    "projects": [
+      {
+        "title": "Ensayo SMAPS — Uganda y Ucrania",
+        "body": "Ensayo multipaís que evalúa una intervención de salud mental y apoyo psicosocial para poblaciones afectadas por el conflicto y el desplazamiento, con sedes en Uganda y Ucrania."
+      },
+      {
+        "title": "Escala de Bienestar Kankuamo — Colombia (£300.000, UKRI / Minciencias)",
+        "body": "Adaptación cultural y validación psicométrica de un instrumento de bienestar codesarrollado con la comunidad indígena Kankuamo, financiado por UKRI en colaboración con Minciencias."
+      },
+      {
+        "title": "Consorcio SPIDR — Horizon Europe (en evaluación)",
+        "body": "Consorcio europeo de investigación multinstitucional sobre salud mental y apoyo psicosocial para poblaciones desplazadas. Propuesta actualmente en evaluación por Horizon Europe."
+      }
+    ],
+    "methodsTitle": "Métodos",
+    "methodsBody": "Su trabajo combina métodos mixtos, validación psicométrica, revisiones sistemáticas, investigación-acción participativa, regresión multivariable y análisis factorial exploratorio y de componentes principales (EFA / PCA).",
+    "themesTitle": "Temáticas",
+    "themes": ["Desplazamiento forzado", "SMAPS", "Ciencia de la implementación", "Adaptación cultural"]
+  },
+  "consultancy": {
+    "title": "Consultoría",
+    "metaTitle": "Consultoría — Catharina van der Boor",
+    "metaDescription": "Consultoría en diseño y evaluación de programas SMAPS, adaptación cultural de instrumentos y formación de capacidades para agencias de la ONU, ONG internacionales y ministerios de salud.",
+    "intro": "Catharina asesora a agencias de Naciones Unidas, ONG internacionales, ministerios de salud y socios académicos en el diseño y la evaluación de programas de salud mental y apoyo psicosocial. Apoya la adaptación cultural y la validación psicométrica de instrumentos de medida, realiza evaluaciones de necesidades y de implementación en contextos afectados por el conflicto y el desplazamiento, y ofrece formación y desarrollo de capacidades para equipos de investigación y de programa. Sus colaboraciones aplican los mismos estándares metodológicos que su trabajo académico: métodos mixtos, rigor psicométrico y una mirada de ciencia de la implementación.",
+    "clientsTitle": "Clientes pasados y actuales",
+    "clients": [
+      { "period": "2026 – actualidad", "name": "International Medical Corps / UNICEF Ucrania" },
+      { "period": "2025", "name": "Organización Mundial de la Salud (OMS) Ucrania" },
+      { "period": "2023 – actualidad", "name": "Mid Sweden University" },
+      { "period": "2021 – 2023", "name": "Insecurity Insights (Suiza)" },
+      { "period": "2020 – 2021", "name": "Médecins du Monde Reino Unido" }
+    ],
+    "engagementsTitle": "Modalidades de colaboración",
+    "engagements": [
+      {
+        "title": "Asesoría de corto plazo",
+        "body": "Aporte técnico puntual sobre diseño de programas SMAPS, diseño de estudios y decisiones metodológicas para preguntas acotadas en el tiempo."
+      },
+      {
+        "title": "Evaluación y diagnóstico de necesidades",
+        "body": "Evaluaciones con métodos mixtos y diagnósticos de necesidades en contextos humanitarios y de desplazamiento, desde el protocolo hasta el informe final."
+      },
+      {
+        "title": "Formación y desarrollo de capacidades",
+        "body": "Formación de equipos de investigación y de programa en validación psicométrica, métodos cualitativos y evaluación de la implementación."
+      }
+    ],
+    "cta": "Hablar de un proyecto"
   }
 }
