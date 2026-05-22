@@ -426,7 +426,7 @@ const es: SiteContent = {
     intro:
       "Para consultoría, colaboración de investigación, supervisión o consultas de medios, le ruego que utilice el formulario o escriba directamente. Una nota breve describiendo el trabajo, los plazos y la organización solicitante resulta de gran ayuda.",
     emailLabel: "Correo directo",
-    emailValue: "[Correo de LSHTM por confirmar]",
+    emailValue: "Catharina.van-der-boor@lshtm.ac.uk",
     formTitle: "Enviar un mensaje",
     fields: {
       name: "Su nombre",
