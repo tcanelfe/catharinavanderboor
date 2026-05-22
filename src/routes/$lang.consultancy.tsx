@@ -28,7 +28,10 @@ export const Route = createFileRoute("/$lang/consultancy")({
         { property: "og:description", content: description },
         { property: "og:url", content: `/${lang}/consultancy` },
         { property: "og:locale", content: c.ogLocale },
+        { property: "og:image", content: "/og-image.jpg" },
+        { name: "twitter:image", content: "/og-image.jpg" },
       ],
+
       links: [
         { rel: "canonical", href: `/${lang}/consultancy` },
         { rel: "alternate", hrefLang: lang, href: `/${lang}/consultancy` },
