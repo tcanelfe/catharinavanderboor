@@ -171,7 +171,16 @@ function PublicationsPage() {
           {selectedPublications.map((pub, i) => (
             <li key={i} className="text-[15px] leading-relaxed">
               <p className="text-foreground/80">
-                {highlightAuthor(pub.authors)} ({pub.year}). {pub.title} <em>{pub.journal}</em>
+                {highlightAuthor(pub.authors)} ({pub.year}).{" "}
+                <a
+                  href={pub.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2 hover:text-foreground"
+                >
+                  {pub.title}
+                </a>{" "}
+                <em>{pub.journal}</em>
                 {pub.extra ? `, ${pub.extra}` : ""}.
               </p>
             </li>
