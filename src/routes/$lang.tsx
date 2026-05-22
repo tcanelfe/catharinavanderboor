@@ -10,7 +10,6 @@ export const Route = createFileRoute("/$lang")({
 
 function LangLayout() {
   const { lang } = Route.useParams() as { lang: Lang };
-  const c = getContent(lang);
 
   return (
     <div className="min-h-dvh flex flex-col">
