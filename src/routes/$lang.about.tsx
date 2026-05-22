@@ -149,7 +149,15 @@ function AboutPage() {
         </ul>
       </section>
 
-      {/* 4. Languages */}
+      {/* 4. Leadership and professional activity */}
+      <section className="mt-16 max-w-[720px]">
+        <h2 className="mb-6 text-[1.25rem]">{tr("about.leadershipTitle")}</h2>
+        <ul className="space-y-3 text-foreground/90 list-disc pl-5">
+          {leadership.map((item, i) => (<li key={i}>{item}</li>))}
+        </ul>
+      </section>
+
+      {/* 5. Languages */}
       <section className="mt-16 max-w-[720px]">
         <h2 className="mb-6 text-[1.25rem]">{tr("about.languagesTitle")}</h2>
         <ul className="space-y-2 text-foreground/90">
