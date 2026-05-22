@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import "@/i18n";
 import { isLang, type Lang, getContent } from "@/content";
+import headshot from "@/assets/headshot.jpg";
 
 const ORCID_URL = "https://orcid.org/0000-0003-2710-7601";
 
@@ -94,13 +95,14 @@ function AboutPage() {
       <section className="grid gap-10 md:grid-cols-[1fr_280px] md:gap-12 md:items-start">
         {/* Headshot — first in DOM so it appears at top on mobile; placed in right column on desktop */}
         <div className="md:col-start-2 md:row-start-1">
-          <div
-            role="img"
-            aria-label={tr("about.headshotAlt")}
-            className="w-[280px] h-[280px] max-w-full bg-secondary border border-border rounded-[4px] flex items-center justify-center text-sm text-muted-foreground"
-          >
-            {tr("about.headshotPending")}
-          </div>
+          <img
+            src={headshot}
+            alt={tr("about.headshotAlt")}
+            width={280}
+            height={280}
+            loading="eager"
+            className="w-[280px] h-[280px] max-w-full object-cover rounded-[4px] border border-border"
+          />
         </div>
         <div className="md:col-start-1 md:row-start-1 space-y-5 text-foreground/90 max-w-[62ch]">
           {bio.map((p, i) => (<p key={i}>{p}</p>))}
