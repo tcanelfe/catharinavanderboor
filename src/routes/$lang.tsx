@@ -29,16 +29,18 @@ function LangLayout() {
   );
 }
 
+type NavItem = { to: "/$lang" | "/$lang/about" | "/$lang/research" | "/$lang/consultancy" | "/$lang/publications" | "/$lang/contact"; label: string; exact?: boolean };
+
 function Header({ lang }: { lang: Lang }) {
   const c = getContent(lang);
-  const navItems = [
+  const navItems: NavItem[] = [
     { to: "/$lang", label: c.nav.home, exact: true },
     { to: "/$lang/about", label: c.nav.about },
     { to: "/$lang/research", label: c.nav.research },
     { to: "/$lang/consultancy", label: c.nav.consultancy },
     { to: "/$lang/publications", label: c.nav.publications },
     { to: "/$lang/contact", label: c.nav.contact },
-  ] as const;
+  ];
 
   return (
     <header className="border-b border-border">
