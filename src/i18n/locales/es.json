@@ -31,7 +31,7 @@
     "headshotAlt": "Retrato de Catharina van der Boor",
     "headshotPending": "Retrato pendiente",
     "bio": [
-      "Hola, mi nombre es Carine (abreviatura de Catharina). Durante los últimos ocho años he trabajado en salud mental global, centrándome en personas desplazadas forzadamente por conflictos o desastres. Me importa profundamente la justicia social y la descolonización de la investigación: trabajar con las comunidades afectadas en lugar de estudiarlas, y diseñar proyectos en torno a las necesidades que ellas mismas identifican. Ese compromiso da forma tanto a cómo trabajo como a aquello en lo que trabajo. Cuando asumo un proyecto, le aporto la misma motivación: métodos cuidadosos, respuestas honestas y una verdadera dedicación a las personas a quienes el trabajo busca servir."
+      "Trabajo en apoyo a la salud mental de personas afectadas por el conflicto y el desplazamiento. Me centro en lograr que las intervenciones funcionen en el mundo real cuando se implementan a escala, en contextos humanitarios y de bajos recursos."
     ],
     "timelineTitle": "Trayectoria académica y profesional",
     "timeline": [
@@ -75,37 +75,20 @@
       "Editora asociada de la revista Conflict and Health (2025–actualidad); revisora experta para The Lancet Psychiatry, Global Mental Health, Trials y Social Psychiatry and Psychiatric Epidemiology.",
       "Cofundadora y miembro de la junta de la Mental Health and Psychosocial Research Network."
     ],
-    "methodsTitle": "Métodos",
-    "methods": ["Cualitativos", "Cuantitativos", "Métodos mixtos", "Revisiones sistemáticas", "Investigación-acción participativa"],
-    "themesTitle": "Temáticas",
-    "themes": ["Salud mental y apoyo psicosocial", "Desplazamiento forzado", "Conflicto", "Ciencia de la implementación", "Atención transcultural"],
     "skillsTitle": "Competencias técnicas",
     "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
   },
   "research": {
     "title": "Investigación",
     "metaTitle": "Investigación — Catharina van der Boor",
-    "metaDescription": "Investigación sobre desplazamiento forzado, SMAPS y ciencia de la implementación. Proyectos en curso en Uganda, Ucrania y Colombia.",
-    "intro": "Mi investigación se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación. Desarrollo y evalúo instrumentos diagnósticos culturalmente adaptados e intervenciones psicológicas escalables para poblaciones afectadas por el conflicto, el desplazamiento y la adversidad estructural, con particular interés en cómo se comportan las intervenciones cuando se implementan a escala en entornos de bajos recursos y humanitarios.",
-    "projectsTitle": "Proyectos actuales",
-    "projects": [
-      {
-        "title": "Ensayo SMAPS — Uganda y Ucrania",
-        "body": "Ensayo multipaís que evalúa una intervención de salud mental y apoyo psicosocial para poblaciones afectadas por el conflicto y el desplazamiento, con sedes en Uganda y Ucrania."
-      },
-      {
-        "title": "Escala de Bienestar Kankuamo — Colombia (£300.000, UKRI / Minciencias)",
-        "body": "Adaptación cultural y validación psicométrica de un instrumento de bienestar codesarrollado con la comunidad indígena Kankuamo, financiado por UKRI en colaboración con Minciencias."
-      },
-      {
-        "title": "Consorcio SPIDR — Horizon Europe (en evaluación)",
-        "body": "Consorcio europeo de investigación multinstitucional sobre salud mental y apoyo psicosocial para poblaciones desplazadas. Propuesta actualmente en evaluación por Horizon Europe."
-      }
-    ],
+    "metaDescription": "Investigación sobre desplazamiento forzado, SMAPS y ciencia de la implementación: métodos, temáticas y modalidades de colaboración.",
+    "intro": "Mi investigación se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación. Desarrollo y evalúo instrumentos diagnósticos culturalmente adaptados e intervenciones psicológicas escalables para poblaciones afectadas por el conflicto, el desplazamiento y la adversidad estructural, con particular interés en cómo se comportan las intervenciones cuando se implementan a escala en entornos humanitarios y de bajos recursos.",
     "methodsTitle": "Métodos",
-    "methodsBody": "Mi trabajo combina métodos mixtos, validación psicométrica, revisiones sistemáticas, investigación-acción participativa, regresión multivariable y análisis factorial exploratorio y de componentes principales (EFA / PCA).",
+    "methods": ["Cualitativos", "Cuantitativos", "Métodos mixtos", "Revisiones sistemáticas", "Investigación-acción participativa"],
     "themesTitle": "Temáticas",
-    "themes": ["Desplazamiento forzado", "SMAPS", "Ciencia de la implementación", "Adaptación cultural"]
+    "themes": ["Salud mental y apoyo psicosocial", "Desplazamiento forzado", "Conflicto", "Ciencia de la implementación", "Atención transcultural"],
+    "ctaPrefix": "¿Le interesa este tipo de trabajo para su organización?",
+    "ctaLinkText": "Así colaboro con clientes."
   },
   "consultancy": {
     "title": "Consultoría",

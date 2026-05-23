@@ -87,8 +87,6 @@ function AboutPage() {
   const languages = t("about.languages", { lng: lang, returnObjects: true }) as string[];
   const skills = t("about.skills", { lng: lang, returnObjects: true }) as string[];
   const leadership = t("about.leadership", { lng: lang, returnObjects: true }) as string[];
-  const methods = t("about.methods", { lng: lang, returnObjects: true }) as string[];
-  const themes = t("about.themes", { lng: lang, returnObjects: true }) as string[];
 
   return (
     <article className="mx-auto max-w-[1100px] px-6 py-16">
@@ -159,35 +157,6 @@ function AboutPage() {
         </ul>
       </section>
 
-      {/* Methods */}
-      <section className="mt-16 max-w-[720px]">
-        <h2 className="mb-6 text-[1.25rem]">{tr("about.methodsTitle")}</h2>
-        <ul className="flex flex-wrap gap-2">
-          {methods.map((m) => (
-            <li
-              key={m}
-              className="border border-border bg-card px-3 py-1.5 text-[14px] text-foreground/85 rounded-[4px]"
-            >
-              {m}
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* Themes */}
-      <section className="mt-16 max-w-[720px]">
-        <h2 className="mb-6 text-[1.25rem]">{tr("about.themesTitle")}</h2>
-        <ul className="flex flex-wrap gap-2">
-          {themes.map((th) => (
-            <li
-              key={th}
-              className="border border-border bg-card px-3 py-1.5 text-[14px] text-foreground/85 rounded-[4px]"
-            >
-              {th}
-            </li>
-          ))}
-        </ul>
-      </section>
 
       {/* 5. Languages */}
       <section className="mt-16 max-w-[720px]">

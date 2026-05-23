@@ -13,6 +13,7 @@ import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as LangRouteImport } from './routes/$lang'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as LangIndexRouteImport } from './routes/$lang.index'
+import { Route as LangResearchRouteImport } from './routes/$lang.research'
 import { Route as LangPublicationsRouteImport } from './routes/$lang.publications'
 import { Route as LangContactRouteImport } from './routes/$lang.contact'
 import { Route as LangConsultancyRouteImport } from './routes/$lang.consultancy'
@@ -36,6 +37,11 @@ const IndexRoute = IndexRouteImport.update({
 const LangIndexRoute = LangIndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => LangRoute,
+} as any)
+const LangResearchRoute = LangResearchRouteImport.update({
+  id: '/research',
+  path: '/research',
   getParentRoute: () => LangRoute,
 } as any)
 const LangPublicationsRoute = LangPublicationsRouteImport.update({
@@ -67,6 +73,7 @@ export interface FileRoutesByFullPath {
   '/$lang/consultancy': typeof LangConsultancyRoute
   '/$lang/contact': typeof LangContactRoute
   '/$lang/publications': typeof LangPublicationsRoute
+  '/$lang/research': typeof LangResearchRoute
   '/$lang/': typeof LangIndexRoute
 }
 export interface FileRoutesByTo {
@@ -76,6 +83,7 @@ export interface FileRoutesByTo {
   '/$lang/consultancy': typeof LangConsultancyRoute
   '/$lang/contact': typeof LangContactRoute
   '/$lang/publications': typeof LangPublicationsRoute
+  '/$lang/research': typeof LangResearchRoute
   '/$lang': typeof LangIndexRoute
 }
 export interface FileRoutesById {
@@ -87,6 +95,7 @@ export interface FileRoutesById {
   '/$lang/consultancy': typeof LangConsultancyRoute
   '/$lang/contact': typeof LangContactRoute
   '/$lang/publications': typeof LangPublicationsRoute
+  '/$lang/research': typeof LangResearchRoute
   '/$lang/': typeof LangIndexRoute
 }
 export interface FileRouteTypes {
@@ -99,6 +108,7 @@ export interface FileRouteTypes {
     | '/$lang/consultancy'
     | '/$lang/contact'
     | '/$lang/publications'
+    | '/$lang/research'
     | '/$lang/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -108,6 +118,7 @@ export interface FileRouteTypes {
     | '/$lang/consultancy'
     | '/$lang/contact'
     | '/$lang/publications'
+    | '/$lang/research'
     | '/$lang'
   id:
     | '__root__'
@@ -118,6 +129,7 @@ export interface FileRouteTypes {
     | '/$lang/consultancy'
     | '/$lang/contact'
     | '/$lang/publications'
+    | '/$lang/research'
     | '/$lang/'
   fileRoutesById: FileRoutesById
 }
@@ -157,6 +169,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangIndexRouteImport
       parentRoute: typeof LangRoute
     }
+    '/$lang/research': {
+      id: '/$lang/research'
+      path: '/research'
+      fullPath: '/$lang/research'
+      preLoaderRoute: typeof LangResearchRouteImport
+      parentRoute: typeof LangRoute
+    }
     '/$lang/publications': {
       id: '/$lang/publications'
       path: '/publications'
@@ -193,6 +212,7 @@ interface LangRouteChildren {
   LangConsultancyRoute: typeof LangConsultancyRoute
   LangContactRoute: typeof LangContactRoute
   LangPublicationsRoute: typeof LangPublicationsRoute
+  LangResearchRoute: typeof LangResearchRoute
   LangIndexRoute: typeof LangIndexRoute
 }
 
@@ -201,6 +221,7 @@ const LangRouteChildren: LangRouteChildren = {
   LangConsultancyRoute: LangConsultancyRoute,
   LangContactRoute: LangContactRoute,
   LangPublicationsRoute: LangPublicationsRoute,
+  LangResearchRoute: LangResearchRoute,
   LangIndexRoute: LangIndexRoute,
 }
 
@@ -214,3 +235,13 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
