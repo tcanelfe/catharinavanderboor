@@ -97,7 +97,7 @@ function ConsultancyPage() {
         <Link
           to="/$lang/contact"
           params={{ lang }}
-          className="inline-block bg-primary text-primary-foreground px-6 py-3 text-[15px] no-underline hover:no-underline hover:bg-primary/90 rounded-[4px]"
+          className="inline-block bg-primary text-primary-foreground px-6 py-3 text-[15px] no-underline hover:no-underline hover:bg-primary/90 rounded-[4px] transition-[transform,background-color] duration-[160ms] ease-out motion-safe:active:scale-[0.97]"
         >
           {t("consultancy.cta", { lng: lang })} →
         </Link>

@@ -157,7 +157,7 @@ function ContactPage() {
             <button
               type="submit"
               disabled={isPlaceholder || status === "submitting"}
-              className="bg-primary text-primary-foreground px-6 py-3 text-[15px] rounded-[4px] hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="bg-primary text-primary-foreground px-6 py-3 text-[15px] rounded-[4px] hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-[transform,background-color] duration-[160ms] ease-out motion-safe:active:scale-[0.97] disabled:active:scale-100"
             >
               {status === "submitting"
                 ? t("contact.submitting", { lng: lang })
