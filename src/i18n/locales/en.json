@@ -1,30 +1,30 @@
 {
   "home": {
     "name": "Catharina van der Boor",
-    "lede": "Senior Lecturer in Global Mental Health at LSHTM and Co-Director of the Centre for Health in Humanitarian Crises. I design and evaluate mental health interventions for populations affected by conflict and displacement.",
+    "lede": "Assistant Professor in Mental Health of Forcibly Displaced Populations at the London School of Hygiene and Tropical Medicine and Co-Director of the Centre for Health in Humanitarian Crises. I work on designing and evaluating mental health interventions for populations affected by conflict and forced displacement. I also work with UN agencies and NGOs as an independent consultant.",
     "ctaPrimary": "Get in touch",
     "ctaSecondary": "Read research",
     "anchors": [
       "Associate Editor, Conflict and Health (2025–present)",
       "Fieldwork in Uganda, Ukraine, Colombia, Sweden",
-      "Consultant to WHO, UNICEF (via IMC), Mid Sweden University"
+      "Consultancy work for WHO, International Medical Corps, Mid Sweden University, University of Cambridge"
     ],
     "workTitle": "Selected current work",
     "work": [
       {
         "title": "MHPSS trial — Uganda and Ukraine",
-        "body": "A multi-country trial of a mental health and psychosocial support intervention for populations affected by conflict and displacement, conducted across sites in Uganda and Ukraine."
+        "body": "An effectiveness and implementation trial of a mental health and psychosocial intervention for populations affected by conflict and forced displacement."
       },
       {
-        "title": "Kankuamo Wellbeing Scale — Colombia",
-        "body": "Cultural adaptation and psychometric validation of the Kankuamo Wellbeing Scale, developed with the Kankuamo Indigenous community in Colombia."
+        "title": "Indigenous Mental Health and Wellbeing — Colombia",
+        "body": "Co-developing and validating the first mental health and wellbeing scale with the conflict-affected Kankuamo Indigenous community in Colombia."
       },
       {
-        "title": "UNICEF Ukraine MHPSS needs assessment",
-        "body": "Mental health and psychosocial support needs assessment for UNICEF in Ukraine, informing programme design in a conflict-affected setting."
+        "title": "MHPSS Needs of Children and Adolescents in Ukraine",
+        "body": "Assessing the mental health and psychosocial needs and available support services for children and adolescents living on the frontline of Ukraine."
       }
     ],
-    "closing": "Available for consultancy on MHPSS programme design, cultural adaptation of instruments, and implementation evaluation."
+    "closing": "Available for consultancy on MHPSS programme design, cultural adaptation of instruments, needs and service availability assessments, and implementation evaluation."
   },
   "about": {
     "title": "About",
