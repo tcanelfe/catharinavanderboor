@@ -110,3 +110,29 @@
     color: var(--color-primary-foreground);
   }
 }
+
+@media not (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 240ms;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  ::view-transition-old(root) {
+    animation-name: lang-fade-out;
+  }
+  ::view-transition-new(root) {
+    animation-name: lang-fade-in;
+  }
+  @keyframes lang-fade-out {
+    to {
+      opacity: 0;
+      filter: blur(2px);
+    }
+  }
+  @keyframes lang-fade-in {
+    from {
+      opacity: 0;
+      filter: blur(2px);
+    }
+  }
+}

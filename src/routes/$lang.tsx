@@ -99,6 +99,18 @@ function LangSwitch({ lang }: { lang: Lang }) {
               href={swap(l)}
               className="text-muted-foreground hover:text-primary no-underline hover:underline"
               hrefLang={l}
+              onClick={(e) => {
+                const url = swap(l);
+                const doc = document as Document & {
+                  startViewTransition?: (cb: () => void) => unknown;
+                };
+                if (typeof doc.startViewTransition === "function") {
+                  e.preventDefault();
+                  doc.startViewTransition(() => {
+                    window.location.href = url;
+                  });
+                }
+              }}
             >
               {c.langSwitch[l]}
             </a>
