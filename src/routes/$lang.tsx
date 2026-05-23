@@ -13,10 +13,7 @@ function LangLayout() {
 
   return (
     <div className="min-h-dvh flex flex-col">
-      <a
-        href="#main"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-background focus:px-3 focus:py-2 focus:border focus:border-primary"
-      >
+      <a href="#main" className="skip-link">
         Skip to content
       </a>
       <Header lang={lang} />

@@ -115,6 +115,33 @@
     background-color: var(--color-primary);
     color: var(--color-primary-foreground);
   }
+
+  .skip-link {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 50;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(-8px) scale(0.97);
+    transform-origin: top left;
+    pointer-events: none;
+    transition: opacity 180ms var(--ease-out, ease-out),
+                transform 180ms var(--ease-out, ease-out);
+  }
+
+  .skip-link:focus,
+  .skip-link:focus-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    outline: none;
+  }
 }
 
 @media not (prefers-reduced-motion: reduce) {
