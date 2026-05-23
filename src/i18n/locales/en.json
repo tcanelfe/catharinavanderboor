@@ -31,9 +31,7 @@
     "headshotAlt": "Headshot of Catharina van der Boor",
     "headshotPending": "Headshot pending",
     "bio": [
-      "I am an Assistant Professor in Mental Health of Forcibly Displaced Populations and Co-Director of the Centre for Health in Humanitarian Crises at the London School of Hygiene & Tropical Medicine. My work sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science.",
-      "My research focuses on the development and evaluation of culturally adapted diagnostic instruments and of scalable psychological interventions for displaced and underserved populations. I have authored peer-reviewed publications in leading journals and have secured competitive research funding for work spanning Europe, Africa, Latin America, and South Asia.",
-      "Alongside my academic appointment, I advise UN agencies, ministries of health, and international NGOs on programme design, evaluation, and capacity-building, with a methodological emphasis on mixed methods, psychometric validation, and implementation science."
+      "Hi there, my name is Carine (short for Catharina). For the last eight years I've worked in global mental health, focusing on people who have been forcibly displaced by conflict or disaster. I care deeply about social justice and about decolonising research: working with affected communities rather than studying them, and designing projects around the needs they identify themselves. That commitment shapes both how I work and what I work on. When I take on a project, I bring the same motivation to it: careful methods, honest answers, and a real dedication to the people the work is meant to serve."
     ],
     "timelineTitle": "Academic and professional timeline",
     "timeline": [
@@ -75,11 +73,12 @@
     "leadershipTitle": "Leadership and professional activity",
     "leadership": [
       "Associate Editor of Conflict and Health (2025–present); expert reviewer for The Lancet Psychiatry, Global Mental Health, Trials, and Social Psychiatry and Psychiatric Epidemiology.",
-      "Co-founder and board member of the Mental Health and Psychosocial Research Network; mentor to seven junior MHPSS professionals working in conflict-affected settings.",
-      "Member of the Examinations Board (LSHTM); external PhD examiner at King's College London, University of York, and Trinity College Dublin (2024–2026).",
-      "Faculty representative on the Gender Equity and Diversity Committee (LSHTM); technical advisor to the Government of Andorra (2023–2025).",
-      "Organiser of high-impact international seminars, including the webinar on public health institutions in Gaza (580 attendees; 78,900 views)."
+      "Co-founder and board member of the Mental Health and Psychosocial Research Network."
     ],
+    "methodsTitle": "Methods",
+    "methods": ["Qualitative", "Quantitative", "Mixed methods", "Systematic reviews", "Participatory action research"],
+    "themesTitle": "Themes",
+    "themes": ["Mental health and psychosocial support", "Forced displacement", "Conflict", "Implementation science", "Transcultural care"],
     "skillsTitle": "Technical skills",
     "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
   },

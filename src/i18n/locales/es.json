@@ -31,9 +31,7 @@
     "headshotAlt": "Retrato de Catharina van der Boor",
     "headshotPending": "Retrato pendiente",
     "bio": [
-      "Soy Profesora Adjunta en Salud Mental de Poblaciones Forzadamente Desplazadas y Codirectora del Centre for Health in Humanitarian Crises de la London School of Hygiene & Tropical Medicine. Mi trabajo se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación.",
-      "Mi investigación se centra en el desarrollo y la evaluación de instrumentos diagnósticos culturalmente adaptados y de intervenciones psicológicas escalables para poblaciones desplazadas y desatendidas. Cuento con publicaciones revisadas por pares en revistas de referencia y he obtenido financiación competitiva para proyectos en Europa, África, América Latina y el sur de Asia.",
-      "En paralelo a mi posición académica, asesoro a agencias de Naciones Unidas, ministerios de salud y ONG internacionales en el diseño y la evaluación de programas y en la formación de capacidades, con énfasis metodológico en métodos mixtos, validación psicométrica y ciencia de la implementación."
+      "Hola, mi nombre es Carine (abreviatura de Catharina). Durante los últimos ocho años he trabajado en salud mental global, centrándome en personas desplazadas forzadamente por conflictos o desastres. Me importa profundamente la justicia social y la descolonización de la investigación: trabajar con las comunidades afectadas en lugar de estudiarlas, y diseñar proyectos en torno a las necesidades que ellas mismas identifican. Ese compromiso da forma tanto a cómo trabajo como a aquello en lo que trabajo. Cuando asumo un proyecto, le aporto la misma motivación: métodos cuidadosos, respuestas honestas y una verdadera dedicación a las personas a quienes el trabajo busca servir."
     ],
     "timelineTitle": "Trayectoria académica y profesional",
     "timeline": [
@@ -75,11 +73,12 @@
     "leadershipTitle": "Liderazgo y actividad profesional",
     "leadership": [
       "Editora asociada de la revista Conflict and Health (2025–actualidad); revisora experta para The Lancet Psychiatry, Global Mental Health, Trials y Social Psychiatry and Psychiatric Epidemiology.",
-      "Cofundadora y miembro de la junta de la Mental Health and Psychosocial Research Network; mentora de 7 profesionales júnior de SMAPS en contextos de conflicto.",
-      "Miembro del tribunal de exámenes (LSHTM) y examinadora externa de doctorado en King's College London, University of York y Trinity College Dublin (2024–2026).",
-      "Representante del profesorado en el Comité de Equidad de Género y Diversidad (LSHTM); asesora técnica del Gobierno de Andorra (2023–2025).",
-      "Organizadora de seminarios internacionales de alto impacto, incluido el webinar sobre instituciones de salud pública en Gaza (580 asistentes; 78 900 visualizaciones)."
+      "Cofundadora y miembro de la junta de la Mental Health and Psychosocial Research Network."
     ],
+    "methodsTitle": "Métodos",
+    "methods": ["Cualitativos", "Cuantitativos", "Métodos mixtos", "Revisiones sistemáticas", "Investigación-acción participativa"],
+    "themesTitle": "Temáticas",
+    "themes": ["Salud mental y apoyo psicosocial", "Desplazamiento forzado", "Conflicto", "Ciencia de la implementación", "Atención transcultural"],
     "skillsTitle": "Competencias técnicas",
     "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
   },
