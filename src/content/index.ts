@@ -18,6 +18,7 @@ export interface SiteContent {
   nav: { home: string; about: string; research: string; consultancy: string; publications: string; contact: string };
   footer: { rights: string; email: string };
   langSwitch: { label: string; en: string; es: string };
+  themeToggle: { toDark: string; toLight: string };
   home: {
     metaTitle: string;
     metaDescription: string;
@@ -115,6 +116,7 @@ const en: SiteContent = {
   nav: { home: "Home", about: "About", research: "Research", consultancy: "Consultancy", publications: "Publications", contact: "Contact" },
   footer: { rights: "All rights reserved.", email: "Email" },
   langSwitch: { label: "Language", en: "EN", es: "ES" },
+  themeToggle: { toDark: "Switch to dark theme", toLight: "Switch to light theme" },
   home: {
     metaTitle: "Dr. Catharina van der Boor — Global Mental Health researcher and consultant",
     metaDescription:
@@ -287,6 +289,7 @@ const es: SiteContent = {
   nav: { home: "Inicio", about: "Sobre mí", research: "Investigación", consultancy: "Consultoría", publications: "Publicaciones", contact: "Contacto" },
   footer: { rights: "Todos los derechos reservados.", email: "Correo electrónico" },
   langSwitch: { label: "Idioma", en: "EN", es: "ES" },
+  themeToggle: { toDark: "Cambiar a tema oscuro", toLight: "Cambiar a tema claro" },
   home: {
     metaTitle: "Dra. Catharina van der Boor — Investigadora y consultora en Salud Mental Global",
     metaDescription:
