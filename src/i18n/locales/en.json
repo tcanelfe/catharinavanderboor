@@ -31,7 +31,7 @@
     "headshotAlt": "Headshot of Catharina van der Boor",
     "headshotPending": "Headshot pending",
     "bio": [
-      "Hi there, my name is Carine (short for Catharina). For the last eight years I've worked in global mental health, focusing on people who have been forcibly displaced by conflict or disaster. I care deeply about social justice and about decolonising research: working with affected communities rather than studying them, and designing projects around the needs they identify themselves. That commitment shapes both how I work and what I work on. When I take on a project, I bring the same motivation to it: careful methods, honest answers, and a real dedication to the people the work is meant to serve."
+      "I work on mental health support for people affected by conflict and displacement. My focus is making interventions work in the real world when they're delivered at scale, in low-resource and humanitarian settings."
     ],
     "timelineTitle": "Academic and professional timeline",
     "timeline": [
@@ -75,37 +75,20 @@
       "Associate Editor of Conflict and Health (2025–present); expert reviewer for The Lancet Psychiatry, Global Mental Health, Trials, and Social Psychiatry and Psychiatric Epidemiology.",
       "Co-founder and board member of the Mental Health and Psychosocial Research Network."
     ],
-    "methodsTitle": "Methods",
-    "methods": ["Qualitative", "Quantitative", "Mixed methods", "Systematic reviews", "Participatory action research"],
-    "themesTitle": "Themes",
-    "themes": ["Mental health and psychosocial support", "Forced displacement", "Conflict", "Implementation science", "Transcultural care"],
     "skillsTitle": "Technical skills",
     "skills": ["R", "SPSS", "NVivo", "Qualtrics", "Rayyan"]
   },
   "research": {
     "title": "Research",
     "metaTitle": "Research — Catharina van der Boor",
-    "metaDescription": "Research on forced displacement, MHPSS, and implementation science. Current projects in Uganda, Ukraine, and Colombia.",
+    "metaDescription": "Research on forced displacement, MHPSS, and implementation science — methods, themes, and how I work with partners.",
     "intro": "My research sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science. I develop and evaluate culturally adapted diagnostic instruments and scalable psychological interventions for populations affected by conflict, displacement, and structural adversity, with a particular interest in how interventions perform when delivered at scale in low-resource and humanitarian settings.",
-    "projectsTitle": "Current projects",
-    "projects": [
-      {
-        "title": "MHPSS trial — Uganda and Ukraine",
-        "body": "A multi-country trial evaluating a mental health and psychosocial support intervention for populations affected by conflict and displacement, with sites in Uganda and Ukraine."
-      },
-      {
-        "title": "Kankuamo Wellbeing Scale — Colombia (£300k, UKRI / Minciencias)",
-        "body": "Cultural adaptation and psychometric validation of a wellbeing instrument co-developed with the Kankuamo Indigenous community, funded by UKRI in partnership with Minciencias."
-      },
-      {
-        "title": "SPIDR consortium — Horizon Europe (under evaluation)",
-        "body": "Multi-partner European research consortium on mental health and psychosocial support for displaced populations. Proposal currently under evaluation by Horizon Europe."
-      }
-    ],
     "methodsTitle": "Methods",
-    "methodsBody": "My work combines mixed methods, psychometric validation, systematic reviews, participatory action research, multivariable regression, and exploratory and principal component analysis (EFA / PCA).",
+    "methods": ["Qualitative", "Quantitative", "Mixed methods", "Systematic reviews", "Participatory action research"],
     "themesTitle": "Themes",
-    "themes": ["Forced displacement", "MHPSS", "Implementation science", "Cultural adaptation"]
+    "themes": ["Mental health and psychosocial support", "Forced displacement", "Conflict", "Implementation science", "Transcultural care"],
+    "ctaPrefix": "Interested in this kind of work for your organisation?",
+    "ctaLinkText": "Here's how I work with clients."
   },
   "consultancy": {
     "title": "Consultancy",

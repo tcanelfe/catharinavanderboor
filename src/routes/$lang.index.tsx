@@ -75,7 +75,7 @@ function HomePage() {
             {tr("home.ctaPrimary")} →
           </Link>
           <Link
-            to="/$lang/about"
+            to="/$lang/research"
             params={{ lang }}
             className="text-[15px] text-primary no-underline hover:underline underline-offset-4"
           >

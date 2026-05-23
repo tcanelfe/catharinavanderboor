@@ -5,8 +5,8 @@ import type {} from "@tanstack/react-start";
 const BASE_URL = "";
 
 const PATHS = [
-  "/en", "/en/about", "/en/consultancy", "/en/publications", "/en/contact",
-  "/es", "/es/about", "/es/consultancy", "/es/publications", "/es/contact",
+  "/en", "/en/about", "/en/research", "/en/consultancy", "/en/publications", "/en/contact",
+  "/es", "/es/about", "/es/research", "/es/consultancy", "/es/publications", "/es/contact",
 ];
 
 export const Route = createFileRoute("/sitemap.xml")({
