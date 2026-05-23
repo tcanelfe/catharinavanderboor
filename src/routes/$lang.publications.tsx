@@ -136,6 +136,41 @@ export const Route = createFileRoute("/$lang/publications")({
         { rel: "alternate", hrefLang: lang, href: `/${lang}/publications` },
         { rel: "alternate", hrefLang: otherLang, href: `/${otherLang}/publications` },
       ],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name:
+              lang === "es"
+                ? "Publicaciones seleccionadas — Catharina van der Boor"
+                : "Selected publications — Catharina van der Boor",
+            url: `/${lang}/publications`,
+            numberOfItems: selectedPublications.length,
+            itemListElement: selectedPublications.map((pub, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              item: {
+                "@type": "ScholarlyArticle",
+                name: pub.title,
+                headline: pub.title,
+                datePublished: pub.year,
+                url: pub.url,
+                author: pub.authors
+                  .split(";")
+                  .map((a) => a.trim())
+                  .filter(Boolean)
+                  .map((name) => ({ "@type": "Person", name })),
+                isPartOf: {
+                  "@type": "Periodical",
+                  name: pub.journal,
+                },
+              },
+            })),
+          }),
+        },
+      ],
     };
   },
   component: PublicationsPage,
