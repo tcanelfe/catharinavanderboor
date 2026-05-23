@@ -1,39 +1,39 @@
 {
   "home": {
     "name": "Catharina van der Boor",
-    "lede": "Senior Lecturer in Global Mental Health at LSHTM and Co-Director of the Centre for Health in Humanitarian Crises. I design and evaluate mental health interventions for populations affected by conflict and displacement.",
+    "lede": "Assistant Professor in Mental Health of Forcibly Displaced Populations at the London School of Hygiene and Tropical Medicine and Co-Director of the Centre for Health in Humanitarian Crises. I work on designing and evaluating mental health interventions for populations affected by conflict and forced displacement. I also work with UN agencies and NGOs as an independent consultant.",
     "ctaPrimary": "Get in touch",
     "ctaSecondary": "Read research",
     "anchors": [
       "Associate Editor, Conflict and Health (2025–present)",
       "Fieldwork in Uganda, Ukraine, Colombia, Sweden",
-      "Consultant to WHO, UNICEF (via IMC), Mid Sweden University"
+      "Consultancy work for WHO, International Medical Corps, Mid Sweden University, University of Cambridge"
     ],
     "workTitle": "Selected current work",
     "work": [
       {
         "title": "MHPSS trial — Uganda and Ukraine",
-        "body": "A multi-country trial of a mental health and psychosocial support intervention for populations affected by conflict and displacement, conducted across sites in Uganda and Ukraine."
+        "body": "An effectiveness and implementation trial of a mental health and psychosocial intervention for populations affected by conflict and forced displacement."
       },
       {
-        "title": "Kankuamo Wellbeing Scale — Colombia",
-        "body": "Cultural adaptation and psychometric validation of the Kankuamo Wellbeing Scale, developed with the Kankuamo Indigenous community in Colombia."
+        "title": "Indigenous Mental Health and Wellbeing — Colombia",
+        "body": "Co-developing and validating the first mental health and wellbeing scale with the conflict-affected Kankuamo Indigenous community in Colombia."
       },
       {
-        "title": "UNICEF Ukraine MHPSS needs assessment",
-        "body": "Mental health and psychosocial support needs assessment for UNICEF in Ukraine, informing programme design in a conflict-affected setting."
+        "title": "MHPSS Needs of Children and Adolescents in Ukraine",
+        "body": "Assessing the mental health and psychosocial needs and available support services for children and adolescents living on the frontline of Ukraine."
       }
     ],
-    "closing": "Available for consultancy on MHPSS programme design, cultural adaptation of instruments, and implementation evaluation."
+    "closing": "Available for consultancy on MHPSS programme design, cultural adaptation of instruments, needs and service availability assessments, and implementation evaluation."
   },
   "about": {
     "title": "About",
     "headshotAlt": "Headshot of Catharina van der Boor",
     "headshotPending": "Headshot pending",
     "bio": [
-      "Catharina van der Boor is Senior Lecturer in Global Mental Health and Co-Director of the Centre for Health in Humanitarian Crises at the London School of Hygiene & Tropical Medicine. Her work sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science.",
-      "Her research focuses on the development and evaluation of culturally adapted diagnostic instruments and of scalable psychological interventions for displaced and underserved populations. She has authored peer-reviewed publications in leading journals and has secured competitive research funding for work spanning Europe, Africa, Latin America, and South Asia.",
-      "Alongside her academic appointment, she advises UN agencies, ministries of health, and international NGOs on programme design, evaluation, and capacity-building, with a methodological emphasis on mixed methods, psychometric validation, and implementation science."
+      "I am an Assistant Professor in Mental Health of Forcibly Displaced Populations and Co-Director of the Centre for Health in Humanitarian Crises at the London School of Hygiene & Tropical Medicine. My work sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science.",
+      "My research focuses on the development and evaluation of culturally adapted diagnostic instruments and of scalable psychological interventions for displaced and underserved populations. I have authored peer-reviewed publications in leading journals and have secured competitive research funding for work spanning Europe, Africa, Latin America, and South Asia.",
+      "Alongside my academic appointment, I advise UN agencies, ministries of health, and international NGOs on programme design, evaluation, and capacity-building, with a methodological emphasis on mixed methods, psychometric validation, and implementation science."
     ],
     "timelineTitle": "Academic and professional timeline",
     "timeline": [
@@ -87,7 +87,7 @@
     "title": "Research",
     "metaTitle": "Research — Catharina van der Boor",
     "metaDescription": "Research on forced displacement, MHPSS, and implementation science. Current projects in Uganda, Ukraine, and Colombia.",
-    "intro": "Catharina's research sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science. She develops and evaluates culturally adapted diagnostic instruments and scalable psychological interventions for populations affected by conflict, displacement, and structural adversity, with a particular interest in how interventions perform when delivered at scale in low-resource and humanitarian settings.",
+    "intro": "My research sits at the intersection of forced displacement, mental health and psychosocial support (MHPSS), and implementation science. I develop and evaluate culturally adapted diagnostic instruments and scalable psychological interventions for populations affected by conflict, displacement, and structural adversity, with a particular interest in how interventions perform when delivered at scale in low-resource and humanitarian settings.",
     "projectsTitle": "Current projects",
     "projects": [
       {
@@ -104,7 +104,7 @@
       }
     ],
     "methodsTitle": "Methods",
-    "methodsBody": "Her work combines mixed methods, psychometric validation, systematic reviews, participatory action research, multivariable regression, and exploratory and principal component analysis (EFA / PCA).",
+    "methodsBody": "My work combines mixed methods, psychometric validation, systematic reviews, participatory action research, multivariable regression, and exploratory and principal component analysis (EFA / PCA).",
     "themesTitle": "Themes",
     "themes": ["Forced displacement", "MHPSS", "Implementation science", "Cultural adaptation"]
   },
@@ -112,7 +112,7 @@
     "title": "Consultancy",
     "metaTitle": "Consultancy — Catharina van der Boor",
     "metaDescription": "Consultancy on MHPSS programme design, evaluation, cultural adaptation of instruments, and capacity building for UN agencies, INGOs, and ministries of health.",
-    "intro": "Catharina advises UN agencies, international NGOs, ministries of health, and academic partners on the design and evaluation of mental health and psychosocial support programmes. She supports the cultural adaptation and psychometric validation of measurement instruments, conducts needs assessments and implementation evaluations in conflict- and displacement-affected settings, and delivers training and capacity-building for research and programme teams. Engagements draw on the same methodological standards as her academic work — mixed methods, psychometric rigour, and an implementation science lens.",
+    "intro": "I advise UN agencies, international NGOs, ministries of health, and academic partners on the design and evaluation of mental health and psychosocial support programmes. I support the cultural adaptation and psychometric validation of measurement instruments, conduct needs assessments and implementation evaluations in conflict- and displacement-affected settings, and deliver training and capacity-building for research and programme teams. My engagements draw on the same methodological standards as my academic work — mixed methods, psychometric rigour, and an implementation science lens.",
     "clientsTitle": "Past and current clients",
     "clients": [
       { "period": "2026 – present", "name": "International Medical Corps / UNICEF Ukraine" },

@@ -1,39 +1,39 @@
 {
   "home": {
     "name": "Catharina van der Boor",
-    "lede": "Profesora Titular de Salud Mental Global en la LSHTM y Codirectora del Centre for Health in Humanitarian Crises. Diseño y evalúo intervenciones de salud mental para poblaciones afectadas por el conflicto y el desplazamiento.",
+    "lede": "Profesora Adjunta en Salud Mental de Poblaciones Forzadamente Desplazadas en la London School of Hygiene and Tropical Medicine y Codirectora del Centre for Health in Humanitarian Crises. Trabajo en el diseño y la evaluación de intervenciones de salud mental para poblaciones afectadas por el conflicto y el desplazamiento forzado. También colaboro con agencias de Naciones Unidas y ONG como consultora independiente.",
     "ctaPrimary": "Ponerse en contacto",
     "ctaSecondary": "Ver la investigación",
     "anchors": [
       "Editora asociada de Conflict and Health (2025–actualidad)",
       "Trabajo de campo en Uganda, Ucrania, Colombia y Suecia",
-      "Consultora para la OMS, UNICEF (a través de IMC) y Mid Sweden University"
+      "Trabajo de consultoría para la OMS, International Medical Corps, Mid Sweden University y University of Cambridge"
     ],
     "workTitle": "Trabajo actual destacado",
     "work": [
       {
         "title": "Ensayo MHPSS — Uganda y Ucrania",
-        "body": "Ensayo multipaís de una intervención de salud mental y apoyo psicosocial dirigida a poblaciones afectadas por el conflicto y el desplazamiento, llevado a cabo en sedes de Uganda y Ucrania."
+        "body": "Ensayo de efectividad e implementación de una intervención de salud mental y psicosocial para poblaciones afectadas por el conflicto y el desplazamiento forzado."
       },
       {
-        "title": "Escala de Bienestar Kankuamo — Colombia",
-        "body": "Adaptación cultural y validación psicométrica de la Escala de Bienestar Kankuamo, desarrollada con la comunidad indígena Kankuamo en Colombia."
+        "title": "Salud Mental y Bienestar Indígena — Colombia",
+        "body": "Codesarrollo y validación de la primera escala de salud mental y bienestar con la comunidad indígena Kankuamo de Colombia, afectada por el conflicto."
       },
       {
-        "title": "Evaluación de necesidades MHPSS — UNICEF Ucrania",
-        "body": "Evaluación de necesidades de salud mental y apoyo psicosocial para UNICEF en Ucrania, orientada a informar el diseño de programas en un contexto afectado por el conflicto."
+        "title": "Necesidades MHPSS de niños, niñas y adolescentes en Ucrania",
+        "body": "Evaluación de las necesidades de salud mental y apoyo psicosocial y de los servicios de apoyo disponibles para niños, niñas y adolescentes que viven en la línea del frente de Ucrania."
       }
     ],
-    "closing": "Disponible para consultorías en diseño de programas MHPSS, adaptación cultural de instrumentos y evaluación de la implementación."
+    "closing": "Disponible para consultorías en diseño de programas MHPSS, adaptación cultural de instrumentos, evaluación de necesidades y disponibilidad de servicios, y evaluación de la implementación."
   },
   "about": {
     "title": "Sobre mí",
     "headshotAlt": "Retrato de Catharina van der Boor",
     "headshotPending": "Retrato pendiente",
     "bio": [
-      "Catharina van der Boor es Profesora Titular de Salud Mental Global y Codirectora del Centre for Health in Humanitarian Crises de la London School of Hygiene & Tropical Medicine. Su trabajo se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación.",
-      "Su investigación se centra en el desarrollo y la evaluación de instrumentos diagnósticos culturalmente adaptados y de intervenciones psicológicas escalables para poblaciones desplazadas y desatendidas. Cuenta con publicaciones revisadas por pares en revistas de referencia y ha obtenido financiación competitiva para proyectos en Europa, África, América Latina y el sur de Asia.",
-      "En paralelo a su posición académica, asesora a agencias de Naciones Unidas, ministerios de salud y ONG internacionales en el diseño y la evaluación de programas y en la formación de capacidades, con énfasis metodológico en métodos mixtos, validación psicométrica y ciencia de la implementación."
+      "Soy Profesora Adjunta en Salud Mental de Poblaciones Forzadamente Desplazadas y Codirectora del Centre for Health in Humanitarian Crises de la London School of Hygiene & Tropical Medicine. Mi trabajo se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación.",
+      "Mi investigación se centra en el desarrollo y la evaluación de instrumentos diagnósticos culturalmente adaptados y de intervenciones psicológicas escalables para poblaciones desplazadas y desatendidas. Cuento con publicaciones revisadas por pares en revistas de referencia y he obtenido financiación competitiva para proyectos en Europa, África, América Latina y el sur de Asia.",
+      "En paralelo a mi posición académica, asesoro a agencias de Naciones Unidas, ministerios de salud y ONG internacionales en el diseño y la evaluación de programas y en la formación de capacidades, con énfasis metodológico en métodos mixtos, validación psicométrica y ciencia de la implementación."
     ],
     "timelineTitle": "Trayectoria académica y profesional",
     "timeline": [
@@ -87,7 +87,7 @@
     "title": "Investigación",
     "metaTitle": "Investigación — Catharina van der Boor",
     "metaDescription": "Investigación sobre desplazamiento forzado, SMAPS y ciencia de la implementación. Proyectos en curso en Uganda, Ucrania y Colombia.",
-    "intro": "La investigación de Catharina se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación. Desarrolla y evalúa instrumentos diagnósticos culturalmente adaptados e intervenciones psicológicas escalables para poblaciones afectadas por el conflicto, el desplazamiento y la adversidad estructural, con particular interés en cómo se comportan las intervenciones cuando se implementan a escala en entornos de bajos recursos y humanitarios.",
+    "intro": "Mi investigación se sitúa en la intersección entre el desplazamiento forzado, la salud mental y el apoyo psicosocial (SMAPS) y la ciencia de la implementación. Desarrollo y evalúo instrumentos diagnósticos culturalmente adaptados e intervenciones psicológicas escalables para poblaciones afectadas por el conflicto, el desplazamiento y la adversidad estructural, con particular interés en cómo se comportan las intervenciones cuando se implementan a escala en entornos de bajos recursos y humanitarios.",
     "projectsTitle": "Proyectos actuales",
     "projects": [
       {
@@ -104,7 +104,7 @@
       }
     ],
     "methodsTitle": "Métodos",
-    "methodsBody": "Su trabajo combina métodos mixtos, validación psicométrica, revisiones sistemáticas, investigación-acción participativa, regresión multivariable y análisis factorial exploratorio y de componentes principales (EFA / PCA).",
+    "methodsBody": "Mi trabajo combina métodos mixtos, validación psicométrica, revisiones sistemáticas, investigación-acción participativa, regresión multivariable y análisis factorial exploratorio y de componentes principales (EFA / PCA).",
     "themesTitle": "Temáticas",
     "themes": ["Desplazamiento forzado", "SMAPS", "Ciencia de la implementación", "Adaptación cultural"]
   },
@@ -112,7 +112,7 @@
     "title": "Consultoría",
     "metaTitle": "Consultoría — Catharina van der Boor",
     "metaDescription": "Consultoría en diseño y evaluación de programas SMAPS, adaptación cultural de instrumentos y formación de capacidades para agencias de la ONU, ONG internacionales y ministerios de salud.",
-    "intro": "Catharina asesora a agencias de Naciones Unidas, ONG internacionales, ministerios de salud y socios académicos en el diseño y la evaluación de programas de salud mental y apoyo psicosocial. Apoya la adaptación cultural y la validación psicométrica de instrumentos de medida, realiza evaluaciones de necesidades y de implementación en contextos afectados por el conflicto y el desplazamiento, y ofrece formación y desarrollo de capacidades para equipos de investigación y de programa. Sus colaboraciones aplican los mismos estándares metodológicos que su trabajo académico: métodos mixtos, rigor psicométrico y una mirada de ciencia de la implementación.",
+    "intro": "Asesoro a agencias de Naciones Unidas, ONG internacionales, ministerios de salud y socios académicos en el diseño y la evaluación de programas de salud mental y apoyo psicosocial. Apoyo la adaptación cultural y la validación psicométrica de instrumentos de medida, realizo evaluaciones de necesidades y de implementación en contextos afectados por el conflicto y el desplazamiento, y ofrezco formación y desarrollo de capacidades para equipos de investigación y de programa. Mis colaboraciones aplican los mismos estándares metodológicos que mi trabajo académico: métodos mixtos, rigor psicométrico y una mirada de ciencia de la implementación.",
     "clientsTitle": "Clientes pasados y actuales",
     "clients": [
       { "period": "2026 – actualidad", "name": "International Medical Corps / UNICEF Ucrania" },

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import "@/i18n";
 import { isLang, type Lang, getContent } from "@/content";
 
-const EMAIL = "Catharina.van-der-boor@lshtm.ac.uk";
+const EMAIL = "carine.van.der.boor@hotmail.com";
 const FORMSPREE =
   ((import.meta as any).env?.VITE_FORMSPREE_ENDPOINT as string | undefined) ||
   "https://formspree.io/f/REPLACE_ME";
