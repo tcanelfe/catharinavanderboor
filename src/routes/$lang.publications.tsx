@@ -187,9 +187,8 @@ function PublicationsPage() {
   return (
     <article className="mx-auto max-w-[720px] px-6 py-16">
       <h1 className="mb-8">{t("publications.title", { lng: lang })}</h1>
-      <p className="text-foreground/90 text-[17px]">{t("publications.lead", { lng: lang })}</p>
 
-      <div className="mt-8">
+      <div className="mt-2">
         <a
           href={ORCID_URL}
           target="_blank"
