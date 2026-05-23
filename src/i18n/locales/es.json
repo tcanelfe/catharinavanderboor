@@ -1,30 +1,30 @@
 {
   "home": {
     "name": "Catharina van der Boor",
-    "lede": "Profesora Titular de Salud Mental Global en la LSHTM y Codirectora del Centre for Health in Humanitarian Crises. Diseño y evalúo intervenciones de salud mental para poblaciones afectadas por el conflicto y el desplazamiento.",
+    "lede": "Profesora Adjunta en Salud Mental de Poblaciones Forzadamente Desplazadas en la London School of Hygiene and Tropical Medicine y Codirectora del Centre for Health in Humanitarian Crises. Trabajo en el diseño y la evaluación de intervenciones de salud mental para poblaciones afectadas por el conflicto y el desplazamiento forzado. También colaboro con agencias de Naciones Unidas y ONG como consultora independiente.",
     "ctaPrimary": "Ponerse en contacto",
     "ctaSecondary": "Ver la investigación",
     "anchors": [
       "Editora asociada de Conflict and Health (2025–actualidad)",
       "Trabajo de campo en Uganda, Ucrania, Colombia y Suecia",
-      "Consultora para la OMS, UNICEF (a través de IMC) y Mid Sweden University"
+      "Trabajo de consultoría para la OMS, International Medical Corps, Mid Sweden University y University of Cambridge"
     ],
     "workTitle": "Trabajo actual destacado",
     "work": [
       {
         "title": "Ensayo MHPSS — Uganda y Ucrania",
-        "body": "Ensayo multipaís de una intervención de salud mental y apoyo psicosocial dirigida a poblaciones afectadas por el conflicto y el desplazamiento, llevado a cabo en sedes de Uganda y Ucrania."
+        "body": "Ensayo de efectividad e implementación de una intervención de salud mental y psicosocial para poblaciones afectadas por el conflicto y el desplazamiento forzado."
       },
       {
-        "title": "Escala de Bienestar Kankuamo — Colombia",
-        "body": "Adaptación cultural y validación psicométrica de la Escala de Bienestar Kankuamo, desarrollada con la comunidad indígena Kankuamo en Colombia."
+        "title": "Salud Mental y Bienestar Indígena — Colombia",
+        "body": "Codesarrollo y validación de la primera escala de salud mental y bienestar con la comunidad indígena Kankuamo de Colombia, afectada por el conflicto."
       },
       {
-        "title": "Evaluación de necesidades MHPSS — UNICEF Ucrania",
-        "body": "Evaluación de necesidades de salud mental y apoyo psicosocial para UNICEF en Ucrania, orientada a informar el diseño de programas en un contexto afectado por el conflicto."
+        "title": "Necesidades MHPSS de niños, niñas y adolescentes en Ucrania",
+        "body": "Evaluación de las necesidades de salud mental y apoyo psicosocial y de los servicios de apoyo disponibles para niños, niñas y adolescentes que viven en la línea del frente de Ucrania."
       }
     ],
-    "closing": "Disponible para consultorías en diseño de programas MHPSS, adaptación cultural de instrumentos y evaluación de la implementación."
+    "closing": "Disponible para consultorías en diseño de programas MHPSS, adaptación cultural de instrumentos, evaluación de necesidades y disponibilidad de servicios, y evaluación de la implementación."
   },
   "about": {
     "title": "Sobre mí",
