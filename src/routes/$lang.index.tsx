@@ -86,7 +86,7 @@ function HomePage() {
 
       {/* 2. Three credibility anchors */}
       <section className="mx-auto max-w-[1100px] px-6 py-12 border-t border-border">
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3 stagger-in">
           {anchors.map((a, i) => (
             <div
               key={i}
@@ -101,7 +101,7 @@ function HomePage() {
       {/* 3. Selected current work */}
       <section className="mx-auto max-w-[1100px] px-6 py-16 border-t border-border">
         <h2 className="mb-10">{tr("home.workTitle")}</h2>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3 stagger-in">
           {work.map((w, i) => (
             <article key={i} className="border border-border rounded-[4px] bg-card p-6">
               <h3 className="text-[1.05rem] mb-3">{w.title}</h3>
